@@ -1,4 +1,5 @@
 {application, im_server,
+<<<<<<< HEAD
  [{description, "An OTP application"},
   {vsn, "0.1.0"},
   {registered, []},
@@ -13,4 +14,16 @@
   {maintainers, []},
   {licenses, []},
   {links, []}
+=======
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { im_server_app, []}},
+  {env, []}
+>>>>>>> d136b3106abf3bcd03e93fffc6fccec57af8fbbc
  ]}.
